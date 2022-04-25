@@ -1,0 +1,42 @@
+.yellow-hero {
+    width: $contentwidth;
+    height: 400px;
+    margin: $center;
+    margin-top: 50px;
+    // background-color: yellow;
+    background-image: linear-gradient(rgba(255, 209, 64, .8), rgba(255, 209, 64, .8) ), url(../images/gallery/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.yellow-title-container {
+    width: $contentwidth;
+    // height: 10px;
+    margin: $center;
+    margin-top: -215px;
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    h1 {
+        font-family: Gill-sans;
+        font-size: 300px;
+        color: $siteyellow;
+        margin-bottom: 0px;
+        line-height: 220px;
+        text-shadow: 3px 3px 10px rgb(52, 52, 52);
+    }
+    h2 {
+        font-family: Gill-sans;
+        font-size: 140px;
+        color: $siteyellow;
+        line-height: 70px;
+        margin-bottom: 0;
+        text-shadow: 3px 3px 10px rgb(52, 52, 52);
+    }
+}
+
+
+

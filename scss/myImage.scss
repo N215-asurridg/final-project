@@ -1,0 +1,22 @@
+.myImage {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    overflow:hidden;
+    position: relative;
+}
+
+.myImage img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+
+.overlay {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    // z-index: 99;
+}

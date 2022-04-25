@@ -1,0 +1,68 @@
+.row1-container {
+    width: $contentwidth;
+    height: 187px;
+    // background-color: aquamarine;
+    margin: $center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-1 {
+    width: 489px;
+    height: 187px;
+    overflow: hidden;
+    position: relative;
+}
+.img-1 img {
+    width: 489px;
+    height: 187px;
+    object-fit: cover;
+}
+.overlay-1 {
+    width: 489px;
+    height: 187px;
+    background-color: rgba(255, 209, 64, .8);
+    position: absolute;
+    top: 0;
+}
+
+.img-2 {
+    width: 187px;
+    height: 187px;
+    overflow: hidden;
+    position: relative;
+}
+.img-2 img {
+    width: 187px;
+    height: 187px; 
+    width: 265px;
+    height: 187px;
+}
+.overlay-2 {
+    width: 187px;
+    height: 187px;
+    background-color: rgba(238, 67, 103, .8);
+    position: absolute;
+    top: 0;
+}
+
+.img-3 {
+    width: 265px;
+    height: 187px;
+    overflow: hidden;
+    position: relative;
+}
+.img-3 img {
+    width: 265px;
+    height: 187px;
+    width: 265px;
+    height: 187px;
+}
+.overlay-3 {
+    width: 265px;
+    height: 187px;
+    background-color: rgba(8, 173, 105, .8);
+    position: absolute;
+    top: 0;
+}

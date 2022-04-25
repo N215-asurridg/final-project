@@ -1,0 +1,19 @@
+.gallery-header {
+    width: $contentwidth;
+    // height: 100px;
+    margin: $center;
+    // background-color: antiquewhite;
+    margin-top: 66px;
+    margin-bottom: 30px;
+    h2 {
+        font-family: Gill-sans;
+        font-size: 25px;
+        margin: 0px;
+    }
+    hr {
+        width: 229px;
+        border: 1px solid black;
+        margin-top: 10px;
+    }
+}
+

@@ -1,0 +1,29 @@
+.paragraph-container {
+    width: $contentwidth;
+    height: 133px;
+    margin: $center;
+    margin-top: 50px;
+    margin-bottom: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .paragraph1 {
+        width: 490px;
+        height: 133px;
+        p {
+            font-family: Gill-sans;
+            font-size: 16px;
+            font-style: italic;
+        }
+    }
+    .paragraph2 {
+        width: 451px;
+        height: 133px;
+        p {
+            font-family: Gill-sans;
+            font-size: 16px;
+            font-style: italic;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.quote-section {
+    width: $sitewidth;
+    height: 300px;
+    background-color: white;
+    margin: 0 auto;
+    .quote-container {
+        width: 789px;
+        margin: 0 auto;
+        margin-top: 77px;
+        p {
+            font-size: 15px;
+            font-family: Gill-sans;
+            font-style: italic;
+            color: $siteyellow;
+            line-height: 1.8;
+        }
+        h3 {
+            font-size: 15px;
+            font-family: Serif-regular;
+            color: $sitepink;
+            margin-top: 20px;
+        }
+        h4 {
+            font-size: 10px;
+            font-family: Serif-regular;
+            color: #A8A8A8;
+        }
+    }
+}

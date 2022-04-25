@@ -1,0 +1,20 @@
+.send-message {
+    width: $contentwidth;
+    height: 60px;
+    margin: $center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 21px;
+    margin-bottom: 90px;
+    .snd-msg-btn {
+        width: 167px;
+        height: 60px;
+        background-color: $sitepink;
+        border: none;
+        font-family: Gill-sans;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

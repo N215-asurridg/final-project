@@ -1,0 +1,47 @@
+.row2-container {
+    width: $contentwidth;
+    height: 306px;
+    margin: $center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-4 {
+    width: 603px;
+    height: 306px;
+    overflow: hidden;
+    position: relative;
+}
+.img-4 img {
+    width: 603px;
+    height: 306px;
+    object-fit: cover;
+}
+.overlay-4 {
+    width: 603px;
+    height: 306px;
+    background-color: rgba(84, 13, 110, .8);
+    position: absolute;
+    top: 0;
+}
+.img-5 {
+    width: 355px;
+    height: 306px;
+    overflow: hidden;
+    position: relative;
+}
+.img-5 img {
+    width: 355px;
+    height: 306px;
+    object-fit: cover;
+}
+.overlay-5 {
+    width: 355px;
+    height: 306px;
+    background-color: rgba(59, 206, 171, .8);
+    position: absolute;
+    top: 0;
+}

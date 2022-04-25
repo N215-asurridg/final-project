@@ -1,0 +1,14 @@
+.text-container {
+    width: $contentwidth;
+    margin: $center;
+    margin-top: 66px;
+    // height: 50px
+    h2 {
+        font-family: Gill-sans;
+        font-size: 25px;
+    }
+    hr {
+        width: 229px;
+        margin-bottom: 30px;
+    }
+}
